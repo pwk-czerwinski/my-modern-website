@@ -1,5 +1,5 @@
 import React from 'react';
-import ISlide from '../interfaces/ISlide';
+import ISlide from '../../interfaces/ISlide';
 import Slide from './Slide';
 
 /**

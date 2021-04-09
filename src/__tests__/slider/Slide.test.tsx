@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
-import Slide from '../components/Slide';
-import sliderPhone from './../images/slider-phone.png';
+import Slide from '../../components/slider/Slide';
+import sliderPhone from '../../images/slider-phone.png';
 
 describe('Slide component renders slide which contains header, paragraph, button and image', () => {
     test('Main container - "div" with class "main-slide-1" was rendered correctly', () => {

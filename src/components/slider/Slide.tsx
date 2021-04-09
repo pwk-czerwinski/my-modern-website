@@ -1,5 +1,5 @@
 import React from 'react';
-import ISlide from '../interfaces/ISlide'
+import ISlide from '../../interfaces/ISlide'
 
 /**
  * Contains slide with header text, paragraph, link and image.
