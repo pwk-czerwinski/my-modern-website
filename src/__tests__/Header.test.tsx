@@ -46,6 +46,6 @@ describe('Header component renders container with navbar which contains logo and
         expect(contactLink).toBeInTheDocument();
         const allLinks = getAllByRole('link');
         const searchLink = allLinks[allLinks.length-1].firstChild;
-        expect(searchLink).toHaveClass('fas fa-search');
+        expect(searchLink).toHaveClass('svg-inline--fa fa-search fa-w-16');
     });
 });
