@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Modern website created using React" />
     <title>My Modern Website</title>
+    <!-- JS bxSlider  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -19,5 +23,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+  <script>
+    $(document).ready(() => {
+      $('#main-slider').bxSlider({
+        mode: 'fade',
+        auto: true,
+        controls: true,
+        pager: false
+      });
+    });
+  </script>
   </body>
 </html>
